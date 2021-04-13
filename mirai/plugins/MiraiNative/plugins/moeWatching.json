@@ -1,0 +1,179 @@
+{
+    "ret": 1,
+    "apiver": 9,
+    "name": "萌化自定义",
+    "version": "8.8052",
+    "version_id": 1,
+    "author": "Doeca",
+    "description": "萌化自定义-快如闪电，精益求精，精心而又精致\r\n群管、资源搜索、娱乐游戏、自定对接、定时播报无限用途，等你发现\r\n文档：http://d.doeca.cc （文档）",
+    "event": [{
+            "id": 1,
+            "type": 21,
+            "name": "私聊消息处理",
+            "function": "_eventPrivateMsg",
+            "priority": 20000
+        },
+        {
+            "id": 2,
+            "type": 2,
+            "name": "群消息处理",
+            "function": "_eventGroupMsg",
+            "priority": 20000
+        },
+        {
+            "id": 3,
+            "type": 4,
+            "name": "讨论组消息处理",
+            "function": "_eventDiscussMsg",
+            "priority": 20000
+        },
+        {
+            "id": 4,
+            "type": 11,
+            "name": "群文件上传事件处理",
+            "function": "_eventGroupUpload",
+            "priority": 20000
+        },
+        {
+            "id": 5,
+            "type": 101,
+            "name": "群管理变动事件处理",
+            "function": "_eventSystem_GroupAdmin",
+            "priority": 20000
+        },
+        {
+            "id": 6,
+            "type": 102,
+            "name": "群成员减少事件处理",
+            "function": "_eventSystem_GroupMemberDecrease",
+            "priority": 20000
+        },
+        {
+            "id": 7,
+            "type": 103,
+            "name": "群成员增加事件处理",
+            "function": "_eventSystem_GroupMemberIncrease",
+            "priority": 20000
+        },
+        {
+            "id": 8,
+            "type": 104,
+            "name": "群禁言事件处理",
+            "function": "_eventSystem_GroupBan",
+            "priority": 20000
+        },
+        {
+            "id": 10,
+            "type": 201,
+            "name": "好友已添加事件处理",
+            "function": "_eventFriend_Add",
+            "priority": 20000
+        },
+        {
+            "id": 11,
+            "type": 301,
+            "name": "好友添加请求处理",
+            "function": "_eventRequest_AddFriend",
+            "priority": 20000
+        },
+        {
+            "id": 12,
+            "type": 302,
+            "name": "群添加请求处理",
+            "function": "_eventRequest_AddGroup",
+            "priority": 20000
+        },
+        {
+            "id": 1001,
+            "type": 1001,
+            "name": "酷Q启动事件",
+            "priority": 20000,
+            "function": "_eventStartup"
+        },
+        {
+            "id": 1002,
+            "type": 1002,
+            "name": "酷Q关闭事件",
+            "priority": 20000,
+            "function": "_eventExit"
+        },
+        {
+            "id": 1003,
+            "type": 1003,
+            "name": "应用已被启用",
+            "priority": 20000,
+            "function": "_eventEnable"
+        },
+        {
+            "id": 1004,
+            "type": 1004,
+            "name": "应用将被停用",
+            "priority": 20000,
+            "function": "_eventDisable"
+        }
+    ],
+    "menu": [{
+            "name": "设置",
+            "function": "_menuA"
+        },
+        {
+            "name": "文档",
+            "function": "_menuB"
+        }
+    ],
+    "status": [{
+            "id": 1,
+            "name": "状态中心",
+            "title": "CENTER",
+            "function": "_statusCenter",
+            "period": "1000"
+        },
+        {
+            "id": 2,
+            "name": "运行时间",
+            "title": "UPTIME",
+            "function": "_statusUptime",
+            "period": "1000"
+        },
+        {
+            "id": 3,
+            "name": "CPU使用率",
+            "title": "CPU",
+            "function": "_statusCPU",
+            "period": "1000"
+        },
+        {
+            "id": 4,
+            "name": "当前账号",
+            "title": "ACCOUNT",
+            "function": "_statusAccount",
+            "period": "1000"
+        }
+    ],
+    "auth": [
+        20,
+        30,
+        101,
+        103,
+        106,
+        110,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130,
+        131,
+        140,
+        150,
+        151,
+        160,
+        161,
+        162,
+        180
+    ]
+}

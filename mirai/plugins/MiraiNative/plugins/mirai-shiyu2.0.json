@@ -1,0 +1,62 @@
+{
+    "ret": 1,
+    "apiver": 9,
+    "name": "mirai-shiyu2.0.2",
+    "version": "2.0.2",
+    "version_id": 1,
+    "author": "世羽",
+    "description": "",
+    "event": [
+      {
+        "id": 1003,
+        "type": 1003,
+        "name": "应用已被启用",
+        "priority": 20000,
+        "function": "_eventEnable"
+      },
+      {
+        "id": 1004,
+        "type": 1004,
+        "name": "应用将被停用",
+        "priority": 20000,
+        "function": "_eventDisable"
+      },
+      {
+        "id": 1001,
+        "type": 1001,
+        "name": "酷Q启动事件",
+        "priority": 20000,
+        "function": "_eventStartup"
+      },
+      {
+        "id": 1002,
+        "type": 1002,
+        "name": "酷Q关闭事件",
+        "priority": 20000,
+        "function": "_eventExit"
+      },
+      {
+        "id": 1,
+        "type": 21,
+        "name": "私聊消息",
+        "function": "_eventPrivateMsg",
+        "priority": 20000
+      },
+      {
+        "id": 2,
+        "type": 2,
+        "name": "群消息",
+        "function": "_eventGroupMsg",
+        "priority": 20000
+      }
+     ],
+    "menu": [
+      {
+        "name": "打开配置窗口",
+        "function": "_menuA"
+      }
+    ],
+    "status": [],
+    "auth": [
+    ]
+  }
