@@ -6,4 +6,6 @@ private QQ robot, whose persona is about an animation character called "xcw" amo
 （相关人设的应答更新于2021.4.13）
 （上传完毕后会修改QQ密码）
 
-先咕慢慢上传
+先咕
+
+慢慢上传
