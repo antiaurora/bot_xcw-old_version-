@@ -16,4 +16,9 @@ private QQ robot, whose persona is about an animation character called "xcw" amo
 
 
 6.22
-最近机器人一直崩，不知道什么原因
+最近机器人一直崩，不知道什么原因 raise SSLError(e, request=request) 
+莽一波，去修改requests
+修改了C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py的394行和61行，verify=False
+
+6.23
+稳定一天了，好家伙，奇怪的知识增加了
