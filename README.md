@@ -12,3 +12,8 @@ private QQ robot, whose persona is about an animation character called "xcw" amo
 
 
 慢慢上传
+
+
+
+6.22
+最近机器人一直崩，不知道什么原因
