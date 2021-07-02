@@ -25,3 +25,5 @@ private QQ robot, whose persona is about an animation character called "xcw" amo
 
 7.2
 升级mirai框架了，差得还挺多，图片的具体类型也纪录了
+例如：接受到一张图片，旧版记录的是[CQ:image,file={691AAC1E-DF02-37DA-A690-831512CFE3FD}.mirai.mnimg]，现在记录的是[CQ:image,file={691AAC1E-DF02-37DA-A690-831512CFE3FD}.jpg.mnimg]
+导致的结果就是，以前基于图片的应答要进行修改（关键词中，mirai.mnimg->jpg.mning），好在回答不用改，或许是做了兼容。
