@@ -22,3 +22,6 @@ private QQ robot, whose persona is about an animation character called "xcw" amo
 
 6.23
 稳定一天了，好家伙，奇怪的知识增加了
+
+7.2
+升级mirai框架了，差得还挺多，图片的具体类型也纪录了
